@@ -7,7 +7,7 @@ from ultralytics import YOLO
 # ==============================
 # MODEL
 # ==============================
-MODEL_PATH = "runs/detect/train/weights/best.pt"
+MODEL_PATH = "weapon_debest.pt"
 model = YOLO(MODEL_PATH)
 
 # ==============================
